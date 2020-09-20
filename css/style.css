@@ -1,0 +1,417 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 1072px;
+    margin: 0 auto;
+}
+.header-bg{
+    width: 100%;
+    height: 788px;
+    background: url(../img/bg-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-links{
+    display: flex;
+    width: 580px;
+    margin: 0 auto;
+    
+    
+}
+.header-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    opacity: 80%;
+    padding-top: 50px;
+}
+.main-logo{
+    width: 44px;
+    height: 44px;
+    padding-top: 37px;
+    opacity: 80%;
+}
+.header-link:nth-child(2){
+    margin-left: 85px;
+}
+.main-logo{
+    margin-left: 100px;
+}
+.main-logo:hover{
+    opacity: 100%;
+}
+.header-link:nth-child(4){
+    margin-left: 101px;
+}
+.header-link:nth-child(5){
+    margin-left: 83px;
+}
+.header-link:hover{
+    opacity: 100%;
+    text-decoration: underline;
+}
+.main-webdev{
+    padding-top: 162px;
+    margin: 0 auto;
+    max-width: 730px;
+    height: 75px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+}
+.main-description{
+    padding-top: 20px;
+    width: 504px;
+    height: 50px;
+    color: white;
+    margin: 0 auto; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.main-get_started{
+    margin: 0 auto;
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+.main-get_started button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+}
+.main-get_started button:hover{
+    opacity: 80%;
+}
+.main_bottom-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 20px;
+    width: 170px;
+    padding-top: 183px;
+}
+.main_bottom-links a:hover{
+    transform: scale(1.8);
+    transition: .2s;
+}
+.idea{
+    display: flex;
+    max-width: 1072px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 842px;
+}
+.idea-content{
+    margin-top: 273px;
+    height: 842px;
+}
+.idea-content h2{
+    max-width: 367px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.idea-content p{
+    max-width: 407px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.idea-get_started{
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+.idea-get_started button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+}
+.idea-get_started button:hover{
+    opacity: 80%;
+}
+.idea-photo{
+    margin-top: 120px;
+    width: 407px;
+    height: 582px;
+    background: url(../img/idea-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.community{
+    height: 504px;
+    background-color: #F5F6F7;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.community .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.community-content{
+    width: 298px;
+    margin-top: 155px;
+}
+.community-pic{
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    background: url(../img/community-pic.png);
+    margin-bottom: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.community h3{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.community p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.community-slider{
+    height: 244px;
+    width: 407px;
+    background: url(../img/slider-pic1.png) no-repeat;
+    margin-top: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.implement{
+    display: flex;
+    max-width: 1072px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 842px;
+}
+.implement-content{
+    margin-top: 319px;
+    height: 842px;
+    padding-right: 97px;
+}
+.implement-photo{
+    margin-top: 120px;
+    width: 407px;
+    height: 582px;
+    background: url(../img/implement-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.implement-learn_more{
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+.implement-learn_more button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #00AFDB;
+    color: white;
+}
+.implement-learn_more button:hover{
+    opacity: 80%;
+}
+.implement-content h2{
+    max-width: 367px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.implement-content p{
+    max-width: 407px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.form-section{
+    max-width: 100%;
+    height: 598px;
+    background: url(../img/form-bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign-up_desc{
+    height: 28px;
+    max-width: 380px;
+    color: white;
+    margin: 0 auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 217px;
+}
+.form_item{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 406px;
+    height: 46px;
+    display: flex;
+}
+.form_item-input{
+    width: 340px;
+}
+.form_item-input::placeholder{
+    padding-left: 24px;
+}
+.form_item button{
+    width: 66px;
+    height: 46px;
+    padding: 0;
+    background: url(../img/btn-submit.png);
+    border: none;
+}
+.form_item button:hover{
+    opacity: 80%;
+}
+.download_section{
+    height: 468px;
+    background-color: rgba(245, 246, 247, 1);
+}
+.download_section h2{
+    padding-top: 120px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    max-width: 483px;
+    margin: 0 auto;
+}
+.download_section p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    max-width: 483px;
+    margin: 0 auto;
+}
+.download_links{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 406px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.download_links a:hover{
+    opacity: 80%;
+}
+.footer{
+    height: 184px;
+    max-width: 100%;
+    background-color: #000;
+}
+.footer_content{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    width: 236px;
+    margin-top: 73px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+.footer-logo{
+    margin-top: 60px;
+    opacity: 80%;
+}
+.footer-links a:hover, .footer-logo:hover{
+    opacity: 100%;
+}
+.author{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(129, 129, 129, 1);
+    margin-top: 73px;
+}
