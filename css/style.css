@@ -19,7 +19,7 @@ body{
 }
 .header-links{
     display: flex;
-    width: 580px;
+    max-width: 580px;
     margin: 0 auto;
     
     
@@ -71,7 +71,7 @@ body{
 }
 .main-description{
     padding-top: 20px;
-    width: 504px;
+    max-width: 504px;
     height: 50px;
     color: white;
     margin: 0 auto; 
@@ -169,7 +169,7 @@ body{
 }
 .idea-photo{
     margin-top: 120px;
-    width: 407px;
+    max-width: 407px;
     height: 582px;
     background: url(../img/idea-image.png);
     background-position: center center;
@@ -221,7 +221,7 @@ body{
 }
 .community-slider{
     height: 244px;
-    width: 407px;
+    max-width: 407px;
     background: url(../img/slider-pic1.png) no-repeat;
     margin-top: 120px;
     background-position: center center;
@@ -242,7 +242,7 @@ body{
 }
 .implement-photo{
     margin-top: 120px;
-    width: 407px;
+    max-width: 407px;
     height: 582px;
     background: url(../img/implement-image.png);
     background-position: center center;
@@ -414,4 +414,71 @@ body{
     text-align: center;
     color: rgba(129, 129, 129, 1);
     margin-top: 73px;
+}
+
+
+
+@media screen and (max-width: 450px){
+    .main-webdev{
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+        line-height: 75px;
+        letter-spacing: 4.5px;
+        text-align: center;
+        height: 150px;
+    }
+    .header-link:first-child{
+        margin-left: 13px;
+    }
+    .header-link:nth-child(2){
+        margin-left: 28px;
+    }
+    .main-logo{
+        margin-left: 43px;
+    }
+    .main-logo:hover{
+        opacity: 100%;
+    }
+    .header-link:nth-child(4){
+        margin-left: 43px;
+    }
+    .header-link:nth-child(5){
+        margin-left: 26px;
+    }
+    .idea{
+        flex-direction: column;
+    }
+    .idea-content{
+        padding: 20px;
+        margin-top: 30px;
+        height: 300px;
+    }
+    .idea-photo{
+        
+        margin: 30px;
+    }
+    .community .wrapper{
+        flex-direction: column;
+        height: 480px;
+    }
+    .community-content{
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+    .community-slider{
+        margin-top: 30px;
+        margin: 15px;
+    }
+    .implement{
+        flex-direction: column;
+        height: 500px;
+    }
+    .implement-photo{
+        margin-top: 30px;
+    }
+    .implement-content{
+        margin-top: 50px;
+        padding: 15px;
+    }
 }
