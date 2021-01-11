@@ -517,6 +517,9 @@ body{
 }
 
 @media screen and (max-height: 700px){
+    .header-links{
+        padding-top: 20px
+    }
     .main-get_started{
         margin-top: 10px;
     }
