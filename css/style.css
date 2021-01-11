@@ -58,7 +58,7 @@ body{
 .main-webdev{
     margin: 0 auto;
     max-width: 730px;
-    height: 75px;
+    /* height: 75px; */
     font-size: 64px;
     font-weight: 700;
     color: white;
@@ -67,7 +67,7 @@ body{
 }
 .main-description{
     max-width: 504px;
-    height: 50px;
+    /* height: 50px; */
     color: white;
     margin: 20px auto 0 auto; 
     font-size: 18px;
@@ -317,9 +317,7 @@ body{
 }
 .form_item-input{
     width: 340px;
-}
-.form_item-input::placeholder{
-    padding-left: 24px;
+    padding: 0 20px;
 }
 .form_item button{
     width: 66px;
@@ -363,7 +361,6 @@ body{
 .download_links{
     margin-top: 30px;
     max-width: 406px;
-    height: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -409,6 +406,7 @@ body{
     opacity: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .footer-links a:hover, .footer-logo:hover{
     opacity: 100%;
@@ -426,76 +424,97 @@ body{
     align-items: center;
 }
 
+ @media screen and (max-width: 780px){
+     .main-webdev{
+         font-size: 50px;
+     }
+ }
 
-
-/* @media screen and (max-width: 450px){
+ @media screen and (max-width: 640px){
     .main-webdev{
-        font-size: 32px;
-        font-weight: 700;
-        color: white;
-        line-height: 75px;
-        letter-spacing: 4.5px;
+        font-size: 40px;
         text-align: center;
-        height: 150px;
     }
-    .header-link:first-child{
-        margin-left: 13px;
-    }
-    .header-link:nth-child(2){
-        margin-left: 28px;
-    }
-    .main-logo{
-        margin-left: 43px;
-    }
-    .main-logo:hover{
-        opacity: 100%;
-    }
-    .header-link:nth-child(4){
-        margin-left: 43px;
-    }
-    .header-link:nth-child(5){
-        margin-left: 26px;
-    }
+}
+
+
+ @media screen and (max-width: 700px){
     .idea{
         flex-direction: column;
     }
     .idea-content{
-        padding: 20px;
-        margin-top: 30px;
-        height: 300px;
+        height: 30vh;
+        justify-content: center;
+    }
+    .idea-content h2{
+        margin-top: 20px;
     }
     .idea-photo{
-        height: 400px;
-        margin: 30px;
+        margin: 0;
+        height: 50vh;
     }
-    .community .wrapper{
+    .idea-photo img{
+        height: 50vh;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .community{
         flex-direction: column;
-        height: 480px;
-    }
-    .community-content{
-        margin-top: 40px;
-        margin: 0 auto;
     }
     .community-slider{
-        margin-top: 30px;
-        margin: 15px;
+        margin: 0;
+    }
+    .community-slider img{
+        width: 70%;
+        margin-bottom: 10px;
+
     }
     .implement{
         flex-direction: column;
-        height: 500px;
-    }
-    .implement-photo{
-        margin-top: 30px;
     }
     .implement-content{
-        margin-top: 50px;
-        padding: 15px;
+        height: 30vh;
+        justify-content: center;
+        margin: 0;
     }
-    .form-section{
-        height: 300px;
+    .implement-content h2{
+        margin-top: 20px;
     }
-    .sign-up_desc{
-        font-size: 20px;
-        padding-top: 80px;
+    .implement-photo{
+        /* margin: 0; */
+        height: 50vh;
     }
-} */
+    .implement-photo img{
+        height: 50vh;
+        width: 70%;
+        margin-top: 20px;
+    }
+    .form_item-input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .download_links{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .android{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .download_section{
+    }
+    .footer-links{
+        flex-direction: column;
+        width: auto;
+        flex: 4;
+        padding: 10px 0;
+    }
+    .footer-logo{
+        flex: 4;
+    }
+    .author{
+        flex: 4;
+    }
+}
