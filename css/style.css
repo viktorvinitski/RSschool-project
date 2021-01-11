@@ -435,6 +435,28 @@ body{
         font-size: 40px;
         text-align: center;
     }
+    .download_links{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .android{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .download_section{
+    }
+    .footer-links{
+        flex-direction: column;
+        width: auto;
+        flex: 4;
+        padding: 10px 0;
+    }
+    .footer-logo{
+        flex: 4;
+    }
+    .author{
+        flex: 4;
+    }
 }
 
 
@@ -491,30 +513,5 @@ body{
     }
     .form_item-input{
         width: 80%;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .download_links{
-        flex-direction: column;
-        margin-top: 20px;
-    }
-    .android{
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .download_section{
-    }
-    .footer-links{
-        flex-direction: column;
-        width: auto;
-        flex: 4;
-        padding: 10px 0;
-    }
-    .footer-logo{
-        flex: 4;
-    }
-    .author{
-        flex: 4;
     }
 }
