@@ -515,3 +515,51 @@ body{
         width: 80%;
     }
 }
+
+@media screen and (max-height: 700px){
+    .main-get_started{
+        margin-top: 10px;
+    }
+    .main_bottom-links{
+        margin-top: 70px;
+    }
+
+    .idea-content h2 {
+        margin-top: 0;
+    }
+    .idea-content p {
+        margin-top: 10px;
+    }
+    .idea-get_started{
+        margin-top: 0;
+    }
+    .idea-photo img {
+        height: 45vh;
+    }
+    .implement-learn_more{
+        padding-top: 10px;
+    }
+    .download_section h2{
+        margin-top: 20px;
+    }
+    .download_section p{
+        padding-top: 10px;
+    }
+    .download_links{
+        margin-top: 10px;
+    }
+    .download_links img{
+        height: 40px;
+    }
+    .footer-links{
+        padding: 5px 0;
+    }
+    .footer-links a{
+        font-size: 9px;
+        height: 13px;
+    }
+    .footer-logo img{
+        width: 35px;
+        height: 35px;
+    }
+}
